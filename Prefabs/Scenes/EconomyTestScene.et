@@ -1,0 +1,18 @@
+GenericEntity : "{8417537169438043}Prefabs/Items/Core/InventoryItem.et" {
+ ID "5D34CAFE00000020"
+ components {
+  Hierarchy "{5D34CAFE00000021}" {
+  }
+ }
+ children {
+  GenericEntity "{5D34CAFE00000002}" {
+   ID "5D34CAFE00000022"
+   coords 5 0 5
+   angleY 45
+  }
+  SCR_BaseGameMode "{56B2B47708C90209}" {
+   ID "5D34CAFE00000023"
+   coords 0 0 0
+  }
+ }
+}
