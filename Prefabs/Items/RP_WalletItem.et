@@ -1,0 +1,20 @@
+GenericEntity : "{8417537169438043}Prefabs/Items/Core/InventoryItem.et" {
+ ID "520EA1D2F659C08E"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Wallet"
+     Description "A wallet containing currency."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5222EB4D05604900}" {
+     Weight 0.1
+     SizeSetupStrategy Manual
+     ItemVolume 100
+    }
+   }
+  }
+  RP_WalletItem "{5D34CAFE00000000}" {
+  }
+ }
+}

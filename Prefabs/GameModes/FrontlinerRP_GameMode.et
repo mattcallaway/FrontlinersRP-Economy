@@ -1,0 +1,8 @@
+SCR_BaseGameMode : "{CE6551E52CBB8C25}Prefabs/MP/Modes/Plain/GameMode_Plain.et" {
+ ID "56B2B47708C90209"
+ components {
+  RP_GameModeComponent "{5D34CAFE00000001}" {
+   m_WalletPrefab "{520EA1D2F659C08E}Prefabs/Items/RP_WalletItem.et"
+  }
+ }
+}
