@@ -33,17 +33,24 @@ This mod is built using Enforce Script and follows standard component-entity pat
 ### Items (`Scripts/Game/Items/`)
 *   **`RP_WalletItem`**: A smart inventory item that acts as the physical token for currency. It contains logic to "absorb" funds when picked up by non-owners.
 
+## 📂 Documentation
+
+*   [Development Roadmap](ROADMAP.md)
+*   [Gap Analysis Report](GapAnalysis.md)
+
 ## 📦 Dependencies
 
 *   **Enfusion Database Framework (EDF)**: Required for data persistence.
 
 ## 🛠️ Installation & Usage
 
-1.  **Workbench**: Open the project in Arma Reforger Workbench.
+1.  **Workbench**: Open the project folder in Arma Reforger Workbench.
 2.  **Mission**: Load `Conf/Missions/FrontlinerRP.conf`.
 3.  **Testing**:
-    *   Play in Multiplayer mode.
-    *   Use the `FrontlinerRP` GameMode prefab which has the necessary components attached.
+    *   **Bank**: Place `Prefabs/Props/RP_ATM.et` in the world to test Deposit/Withdraw actions.
+    *   **Wallet**: Spawns automatically on player spawn.
+    *   **Multiplayer**: Use the `FrontlinerRP` GameMode prefab.
+
 
 ## 🤝 Contributing
 

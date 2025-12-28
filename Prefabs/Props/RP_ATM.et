@@ -1,0 +1,32 @@
+GenericEntity : "{8417537169438043}Prefabs/Items/Core/InventoryItem.et" {
+ ID "5D34CAFE00000002"
+ components {
+  RP_ATMComponent "{5D34CAFE00000003}" {
+  }
+  ActionsManagerComponent "{5D34CAFE00000004}" {
+   ActionContexts {
+    UserActionContext "{5D34CAFE00000005}" {
+     UIInfo UIInfo "{5D34CAFE00000006}" {
+      Name "ATM Interaction"
+     }
+     Actions {
+      RP_ATMAction "{5D34CAFE00000007}" {
+       UIInfo UIInfo "{5D34CAFE00000008}" {
+        Name "Deposit $100"
+       }
+       m_iAmount 100
+       m_iType 0
+      }
+      RP_ATMAction "{5D34CAFE00000009}" {
+       UIInfo UIInfo "{5D34CAFE00000010}" {
+        Name "Withdraw $50"
+       }
+       m_iAmount 50
+       m_iType 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
